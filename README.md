@@ -6,4 +6,4 @@ build image:
  - docker build -t docker-kali .
 
 run image with volume:
-  docker run -it -v your_volume:/root/data docker-kali
+  - docker run -it -v your_volume:/root/data docker-kali
